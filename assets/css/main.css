@@ -1131,11 +1131,11 @@
     content: "";
     position: absolute;
     border-bottom: 2px solid var(--primary-color);
-    width: 0%;
+    width: 0;
     left: 16px;
     bottom: 4px;
     opacity: 0;    
-    transition: width 1s, opacity linear 1s;
+    transition: width 0.5s, opacity linear 0.5s;
 }
 
 .category-item-inactive:hover .category-item__link::after {
